@@ -1,1 +1,6 @@
+### Descrição do Diagrama
 
+O diagrama apresenta uma arquitetura AWS baseada em boas práticas de alta disponibilidade, escalabilidade e segurança. 
+O acesso dos usuários ocorre pela Internet e é distribuído por um Application Load Balancer, que encaminha as requisições para um grupo de instâncias EC2 gerenciado por Auto Scaling.
+As instâncias de aplicação estão posicionadas em uma sub-rede privada, garantindo maior isolamento e segurança. 
+O armazenamento de dados persistentes é realizado no Amazon RDS, enquanto o Amazon S3 é utilizado para backup e armazenamento de arquivos e ativos da aplicação, assegurando durabilidade e redução de custos.
