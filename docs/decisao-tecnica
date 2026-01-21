@@ -1,0 +1,10 @@
+# Decisões Técnicas
+
+As decisões técnicas foram tomadas com base em:
+
+- Simplicidade operacional
+- Serviços gerenciados sempre que possível
+- Escalabilidade automática
+- Pagamento sob demanda
+
+Evitar soluções complexas desnecessárias reduz riscos e custos ao longo do tempo.
