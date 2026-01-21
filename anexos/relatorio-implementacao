@@ -1,0 +1,71 @@
+# RELATÓRIO DE IMPLEMENTAÇÃO DE SERVIÇOS AWS
+
+Data: 20-01-2026  
+Empresa: Abstergo Industries  
+Responsável: Karoliny de Faria  
+
+---
+
+## Introdução
+
+Este relatório apresenta o processo de implementação de serviços AWS na empresa Abstergo Industries, com foco na redução imediata de custos operacionais, aumento da eficiência da infraestrutura e adoção de boas práticas de computação em nuvem.
+
+O projeto foi desenvolvido como parte do desafio prático da DIO, com o objetivo de consolidar os conhecimentos adquiridos sobre AWS Cloud Practitioner / Solutions Architect, arquitetura em nuvem e otimização de custos.
+
+---
+
+## Descrição do Projeto
+
+O projeto foi dividido em três etapas, cada uma abordando um serviço AWS estratégico para redução de custos e melhoria da gestão da infraestrutura.
+
+---
+
+### Etapa 1 – Amazon EC2 Auto Scaling
+
+**Foco da ferramenta:**  
+Escalabilidade automática e otimização de custos computacionais.
+
+**Descrição do caso de uso:**  
+Foi implementado o Amazon EC2 Auto Scaling para ajustar automaticamente a quantidade de instâncias EC2 de acordo com a demanda da aplicação. Dessa forma, a empresa evita custos com recursos ociosos em períodos de baixa utilização e garante desempenho adequado em picos de acesso.
+
+---
+
+### Etapa 2 – Amazon S3 com Lifecycle e Intelligent-Tiering
+
+**Foco da ferramenta:**  
+Armazenamento escalável e redução de custos com dados.
+
+**Descrição do caso de uso:**  
+O Amazon S3 foi utilizado para armazenar arquivos e dados da aplicação. Políticas de Lifecycle e a classe S3 Intelligent-Tiering foram configuradas para mover automaticamente os objetos entre camadas de armazenamento conforme o padrão de acesso, reduzindo custos sem impacto operacional.
+
+---
+
+### Etapa 3 – AWS Cost Explorer e AWS Budgets
+
+**Foco da ferramenta:**  
+Monitoramento e controle financeiro da nuvem.
+
+**Descrição do caso de uso:**  
+Foram configuradas ferramentas de monitoramento de custos para acompanhar os gastos em tempo real. O AWS Cost Explorer permite análise detalhada por serviço, enquanto o AWS Budgets envia alertas automáticos quando os limites de custo definidos são atingidos, evitando gastos inesperados.
+
+---
+
+## Conclusão
+
+A implementação dos serviços AWS na Abstergo Industries proporcionou redução imediata de custos, maior controle financeiro, escalabilidade automática e melhor aproveitamento dos recursos em nuvem.
+
+Essas soluções aumentam a eficiência operacional e reforçam a adoção das boas práticas recomendadas pela AWS. Recomenda-se a continuidade do uso dessas ferramentas e a evolução da arquitetura para atender novas demandas do negócio.
+
+---
+
+## Anexos
+
+- Diagrama de Arquitetura AWS  
+- Documentação técnica do projeto  
+- README do repositório  
+
+---
+
+Assinatura do Responsável pelo Projeto:  
+
+**Karol de Faria**
