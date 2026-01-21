@@ -1,0 +1,9 @@
+# Otimização de Custos
+
+A redução de custos foi alcançada por meio de:
+
+- Auto Scaling para evitar instâncias ociosas
+- S3 Intelligent-Tiering para armazenamento adaptativo
+- Uso de RDS gerenciado para reduzir custos operacionais indiretos
+
+Essas decisões eliminam desperdícios e alinham o custo ao uso real dos recursos.
